@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
+.mt {
+    margin-top: 20px;
+}
+
+.mb {
+    margin-bottom: 10px;
+}
+
+.square {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 20px;
+}
+
+.parent {
+    background-color: aquamarine;
+    /* border: 2px solid red; */
+    margin-bottom: 20px;
+}
+
+.child {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    margin-bottom: 10px;
+}
+
+/* Selettori avanzati */
+/* Vado a colorare di rosso solo l'h1 con classe  title */
+
+h1.title {
+    color: red;
+}
+
+/* Tolgo il bordo dell'input con type submit */
+input[type="submit"] {
+    border: 0;
+}
+
+/* Coloro di verde solo gli elementi p dentro un div */
+div p {
+    color: green;
+}
+
+/* Coloro di blue gli strong figli diretti di div */
+div > strong {
+    color: blue;
+}
+
+/* Quando vado con il mouse ancor tag diventa rosso */
+a:hover {
+    color: red;
+}
